@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/doctorPatientFragment"
+        android:icon="@drawable/ic_people"
+        android:title="@string/nav_doctor" />
+
+    <item
+        android:id="@+id/consultationPatientFragment"
+        android:icon="@drawable/ic_age"
+        android:title="@string/nav_consultation" />
+
+    <item
+        android:id="@+id/prescriptionPatientFragment"
+        android:icon="@drawable/ic_list"
+        android:title="@string/nav_prescription" />
+
+    <item
+        android:id="@+id/chatPatientFragment"
+        android:icon="@drawable/ic_chat"
+        android:title="@string/nav_chat" />
+
+</menu>

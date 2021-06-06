@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/primary_nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.compultra.hcare.ui.auth.LoginFragment"
+        android:label="Login">
+        <argument
+            android:name="userType"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.compultra.hcare.ui.auth.RegisterFragment"
+        android:label="Register"
+        tools:layout="@layout/fragment_register" />
+</navigation>

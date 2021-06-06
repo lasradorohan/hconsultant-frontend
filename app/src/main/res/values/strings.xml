@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">HCare</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="usertype_select_patient">I am a patient</string>
+    <string name="usertype_select_doctor">I am a doctor</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_email">Email Address</string>
+    <string name="enter_password">Password</string>
+    <string name="enter_name">Full Name</string>
+    <string name="enter_age">Age</string>
+    <string name="enter_gender">Gender</string>
+    <string name="enter_weight">Weight</string>
+    <string name="enter_blood">Blood Group</string>
+
+    <string name="title_activity_browse">MainActivity</string>
+    <string name="nav_login">Login</string>
+    <string name="nav_register">Register</string>
+    <string name="nav_doctor">Doctors</string>
+    <string name="nav_consultation">Consultations</string>
+    <string name="nav_prescription">Prescriptions</string>
+    <string name="nav_chat">Chats</string>
+
+    <string name="consultation_id">Consultation id: %d</string>
+    <string name="consultation_status">Status: %s</string>
+    <string name="consultation_period">From %s\nto %s</string>
+    <string name="hint_enter_a_message">Enter a message</string>
+    <!--    <string name="enter_bio">Biography</string>-->
+    <string name="enter_area">Area</string>
+    <string name="print_date">Date: %s</string>
+    <string name="time">%02d:%02d</string>
+    <string name="date">%d-%02d-%02d</string>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+<!--        <item>Prefer not to say</item>-->
+
+
+    <string-array name="gender_short">
+        <item>M</item>
+        <item>F</item>
+        <item>O</item>
+    </string-array>
+<!--    <item>U</item>-->
+
+    <string-array name="blood">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+    <string-array name="doctor_types">
+        <item>Cardiologist</item>
+        <item>Audiologist</item>
+        <item>Dentist</item>
+        <item>ENT specialist</item>
+        <item>Gynaecologist</item>
+        <item>Orthopaedic surgeon</item>
+        <item>Paediatrician</item>
+        <item>Psychiatrist</item>
+        <item>Veterinarian</item>
+        <item>Radiologist</item>
+        <item>Pulmonologist</item>
+        <item>Endocrinologist</item>
+        <item>Oncologist</item>
+        <item>Neurologist</item>
+        <item>Cardiothoracic surgeon</item>
+    </string-array>
+
+</resources>

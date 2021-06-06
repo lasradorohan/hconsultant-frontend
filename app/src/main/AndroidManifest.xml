@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.compultra.hcare">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HCare"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".ui.doctor.BrowseDoctorActivity"
+            android:label="@string/title_activity_browse"/>
+        <activity android:name=".ui.chat.ChatActivity"
+            android:label="Chat"/>
+        <activity
+            android:name=".ui.patient.BrowsePatientActivity"
+            android:label="@string/title_activity_browse" />
+        <activity android:name=".ui.auth.AuthActivity"
+            android:theme="@style/Theme.HCare.NoActionBar"/>
+        <activity android:name=".ui.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

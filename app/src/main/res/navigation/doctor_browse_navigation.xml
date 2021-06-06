@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/doctor_browse_navigation"
+    app:startDestination="@id/consultationDoctorFragment">
+    <fragment
+        android:id="@+id/consultationDoctorFragment"
+        android:name="com.compultra.hcare.ui.doctor.consultation.ConsultationDoctorFragment"
+        android:label="Consultations"
+        tools:layout="@layout/fragment_consultation_doctor" />
+
+    <fragment
+        android:id="@+id/prescriptionDoctorFragment"
+        android:name="com.compultra.hcare.ui.doctor.prescription.PrescriptionDoctorFragment"
+        android:label="Prescriptions"
+        tools:layout="@layout/fragment_prescription_doctor" />
+    <fragment
+        android:id="@+id/chatListFragment"
+        android:name="com.compultra.hcare.ui.chat.ChatListFragment"
+        android:label="Chats"
+        tools:layout="@layout/fragment_chat_list" />
+</navigation>
